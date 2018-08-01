@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chợ đồ cũ</title>
+    <link rel="stylesheet" href="public/libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="public/styles/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="public/libs/owl-carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="public/libs/owl-carousel/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="public/styles/productDetail.css">
+</head>
+
+<body>
+    <header class="header__sticky">
+        <div class="header-navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul>
+                            <li class="font-weight-bold">
+                                <a href="#">Kênh người bán</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 offset-md-4 text-right">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-question-circle"></i> Trợ giúp</a>
+                                </li>
+                                <li class="font-weight-bold">
+                                    <a href="#">Đăng ký</a>
+                                </li>
+                                <li class="font-weight-bold">
+                                    <a href="#">Đăng nhập</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-search">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="public/images/logo.png" alt="">
+                        </div>
+                        <div class="col-md-9">
+                            <form action="#" class="search">
+                                <input type="text" placeholder="Nhập từ khóa...">
+                                <button class="search-submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="col-md-1">
+                            <button class="cart-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="main">
+            <div class="container">
+                <div class="beardcrumb">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="#">Library</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">Data</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="product-top">
+                    <div class="product-top-left">
+                        <div class="product-images">
+                            <div class="product-slideshow">
+                                <img id="show" src="public/images/productImage1.jpeg" alt="product image 1">
+                                <div class="product-slideshow-dots">
+                                    <span class="dot active"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="product-carousel owl-carousel owl-theme">
+                                    <a href="javascript:void(0)" class="item">
+                                        <img class="item-thumb" src="public/images/productImage1.jpeg" alt="product image 1">
+                                    </a>
+                                    <a href="javascript:void(0)" class="item">
+                                        <img class="item-thumb" src="public/images/productImage2.jpeg" alt="product image 2">
+                                    </a>
+                                    <a href="javascript:void(0)" class="item">
+                                        <img class="item-thumb" src="public/images/productImage3.jpeg" alt="product image 3">
+                                    </a>
+                                    <a href="javascript:void(0)" class="item">
+                                        <img class="item-thumb" src="public/images/productImage4.jpeg" alt="product image 4">
+                                    </a>
+                                    <a href="javascript:void(0)" class="item">
+                                        <img class="item-thumb" src="public/images/productImage2.jpeg" alt="product image 2">
+                                    </a>
+                                    <a href="javascript:void(0)" class="item">
+                                        <img class="item-thumb" src="public/images/productImage3.jpeg" alt="product image 3">
+                                    </a>
+                                    <a href="javascript:void(0)" class="item">
+                                        <img class="item-thumb" src="public/images/productImage4.jpeg" alt="product image 4">
+                                    </a>
+                                    <a href="javascript:void(0)" class="item">
+                                        <img class="item-thumb" src="public/images/productImage2.jpeg" alt="product image 2">
+                                        <a href="#" class="item">
+                                            <img class="item-thumb" src="public/images/productImage4.jpeg" alt="product image 4">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-top-right">
+                            <div class="product-detail">
+                                <div class="product-title">
+                                    <h1>Bộ Bàn Phím Giả Cơ và Chuột Chuyên Game LIMEIDE GTX300 2017 Led 7 Màu (Màu Trắng)</h1>
+                                </div>
+                                <div class="product-price">
+                                    <span class="newprice">
+                                        <strong>500.000 đ</strong>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="product-detail">
+                                <div class="shipping">
+                                    <form action="#" class="form-inline">
+                                        <!-- <div class="form-group"> -->
+                                            <label for="shipping" class="control-label">Vận chuyển tới:</label>
+                                            <select name="shipping" class="form-control col-md-4 ml-2">
+                                                <option value="hn">Hà Nội</option>
+                                                <option value="hcm">Hồ Chí Minh</option>
+                                            </select>
+                                            <!-- </div> -->
+
+                                        </form>
+
+                                    </div>
+                                </div>
+                                <div class="product-detail">
+                                    <div class="product-order">
+                                        <a href="#" class="btn btn-primary col-md-4">
+                                            <i class="fas fa-comments"></i> Chat Ngay
+                                        </a>
+                                        <a href="#" class="btn btn-success col-md-4">
+                                            <i class="fas fa-shopping-cart"></i> Mua Ngay
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product-infor">
+                                    <table>
+                                        <tr>
+                                            <td class="product-infor-lable">Danh Mục</td>
+                                            <td class="product-infor-value">
+                                                <a href="#">Đồ điện tử</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="product-infor-lable">Hãng Sản Xuất</td>
+                                            <td class="product-infor-value">
+                                                <a href="#">LIMEIDE</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="product-description">
+                                        <span>Mô Tả Sản Phẩm</span>
+                                        <p class="product-description-content mb-0">
+                                            Miêu tả sản phẩm [Bàn phím LED giả cơ G20 chuyên dụng] => Vật liệu: Nhựa ABS => Kích thước: 450*140*31 (mm) => Cổng kết nối:
+                                            USB 2.0 & 3.0 => Tương thích : HĐH Windows,Mac OS => Bàn phím giả cơ thiết kế đẹp cứng cáp.=> Bật tắt LED 7 màu chia các vùng rất tiện lợi thao tác nhanh.
+                                            => Chữ khắc Laser chống mờ sử dụng lâu.
+                                            => Độ nẩy đàn hồi khi ấn rất tốt tạo cảm giác thoải mái khi sử dụng.
+                                            => Rất nhiều phím tắt, điều khiển media được tích hợp trên bàn phím.
+                                            ---
+                                        </p>
+                                        <span class="show-more">...
+                                            <a href="javascript:void(0)" >Xem thêm</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="product-owner">
+                                    <div class="avatar">
+                                        <img src="public/images/img_avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="owner-infor">
+                                        <div>
+                                            <label for="owner-name">Đăng bởi</label>
+                                            <span name="owner-name">
+                                                <a href="#">Nguyen Van Nam</a>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <label for="owner-address">Địa Chỉ</label>
+                                            <span name="owner-address">Hà Đông, Hà Nội</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-section mt-3">
+                            <h2 class="text-primary">Bình Luận(6)</h2>
+                            <div class="comments">
+                                <div class="comment">
+                                    <div class="avatar">
+                                        <img src="public/images/img_avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="comment-content">
+                                        <div class="commnet-owner">
+                                            <a href="#">Nguyen Van Nam</a>
+                                        </div>
+                                        <p>afsadjflasd jfajsdfajsfd;asdf ;asjdf;ajsdf;asdjf a;sf</p>
+                                    </div>
+                                    <div class="reply">
+                                        <a href="#">
+                                            <i class="fas fa-reply"></i>Reply</a>
+                                        </div>
+                                    </div>
+                                    <div class="comment reply-comment">
+                                        <div class="avatar">
+                                            <img src="public/images/img_avatar.png" alt="avatar">
+                                        </div>
+                                        <div class="comment-content">
+                                            <div class="commnet-owner">
+                                                <a href="#">Nguyen Van Nam</a>
+                                            </div>
+                                            <p>afsadjflasd jfajsdfajsfd;asdf ;asjdf;ajsdf;asdjf a;sf</p>
+                                        </div>
+                                        <div class="reply">
+                                            <a href="#">
+                                                <i class="fas fa-reply"></i>Reply</a>
+                                            </div>
+                                        </div>
+                                        <div class="comment reply-comment">
+                                            <div class="avatar">
+                                                <img src="public/images/img_avatar.png" alt="avatar">
+                                            </div>
+                                            <div class="comment-content">
+                                                <div class="commnet-owner">
+                                                    <a href="#">Nguyen Van Nam</a>
+                                                </div>
+                                                <p>afsadjflasd jfajsdfajsfd;asdf ;asjdf;ajsdf;asdjf a;sf</p>
+                                            </div>
+                                            <div class="reply">
+                                                <a href="#">
+                                                    <i class="fas fa-reply"></i>Reply</a>
+                                                </div>
+                                            </div>
+                                            <div class="comment reply-comment">
+                                                <div class="avatar">
+                                                    <img src="public/images/img_avatar.png" alt="avatar">
+                                                </div>
+                                                <div class="comment-content">
+                                                    <div class="commnet-owner">
+                                                        <a href="#">Nguyen Van Nam</a>
+                                                    </div>
+                                                    <p>afsadjflasd jfajsdfajsfd;asdf ;asjdf;ajsdf;asdjf a;sf</p>
+                                                </div>
+                                                <div class="reply">
+                                                    <a href="#">
+                                                        <i class="fas fa-reply"></i>Reply</a>
+                                                    </div>
+                                                </div>
+                                                <div class="comment reply-comment">
+                                                    <div class="avatar">
+                                                        <img src="public/images/img_avatar.png" alt="avatar">
+                                                    </div>
+                                                    <div class="comment-content">
+                                                        <div class="commnet-owner">
+                                                            <a href="#">Nguyen Van Nam</a>
+                                                        </div>
+                                                        <p>afsadjflasd jfajsdfajsfd;asdf ;asjdf;ajsdf;asdjf a;sf</p>
+                                                    </div>
+                                                    <div class="reply">
+                                                        <a href="#">
+                                                            <i class="fas fa-reply"></i>Reply</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="comment">
+                                                        <div class="avatar">
+                                                            <img src="public/images/img_avatar.png" alt="avatar">
+                                                        </div>
+                                                        <div class="comment-content">
+                                                            <div class="commnet-owner">
+                                                                <a href="#">Nguyen Van Nam</a>
+                                                            </div>
+                                                            <p>afsadjflasd jfajsdfajsfd;asdf ;asjdf;ajsdf;asdjf a;sf</p>
+                                                        </div>
+                                                        <div class="reply">
+                                                            <a href="#">
+                                                                <i class="fas fa-reply"></i>Reply</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="comment-editor">
+                                                    <form action="#">
+                                                        <div class="form-group">
+                                                            <textarea name="comment" class="form-control" rows="5" placeholder="Nhập comment của bạn"></textarea>
+                                                            <button class="btn btn-primary mt-2" type="submit">Comment</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="box suggested mt-3">
+                                                    <div class="box__title">
+                                                        Các sản phẩm tương tự
+                                                    </div>
+                                                    <div class="products suggested-carousel owl-carousel owl-theme">
+                                                        <a href="#" class="item">
+                                                            <img src="https://cf.shopee.vn/file/d1be7103ee50ad4bcd2c3482c85fa184_tn" alt="">
+                                                            <p>Sản phẩm mới nhất hiện nay</p>
+                                                            <div class="item__foot">
+                                                                <b>100.000.000 VND</b>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <span>(10000)</span>
+                                                            </div>
+                                                        </a>
+                                                        <a href="#" class="item">
+                                                            <img src="https://cf.shopee.vn/file/3c18ee889c242196030a86b7ce86a59e_tn" alt="">
+                                                            <p>Sản phẩm mới nhất hiện nay</p>
+                                                            <div class="item__foot">
+                                                                <b>100.000.000 VND</b>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <span>(10000)</span>
+                                                            </div>
+                                                        </a>
+                                                        <a href="#" class="item">
+                                                            <img src="https://cf.shopee.vn/file/65fa8b4b0efc12ce40aff3bc34541de2_tn" alt="">
+                                                            <p>Sản phẩm mới nhất hiện nay</p>
+                                                            <div class="item__foot">
+                                                                <b>100.000.000 VND</b>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <span>(10000)</span>
+                                                            </div>
+                                                        </a>
+                                                        <a href="#" class="item">
+                                                            <img src="https://cf.shopee.vn/file/1366956e12b7c40936a1e11ffe1bd486_tn" alt="">
+                                                            <p>Sản phẩm mới nhất hiện nay</p>
+                                                            <div class="item__foot">
+                                                                <b>100.000.000 VND</b>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <span>(10000)</span>
+                                                            </div>
+                                                        </a>
+                                                        <a href="#" class="item">
+                                                            <img src="https://cf.shopee.vn/file/d1be7103ee50ad4bcd2c3482c85fa184_tn" alt="">
+                                                            <p>Sản phẩm mới nhất hiện nay</p>
+                                                            <div class="item__foot">
+                                                                <b>100.000.000 VND</b>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <span>(10000)</span>
+                                                            </div>
+                                                        </a>
+                                                        <a href="#" class="item">
+                                                            <img src="https://cf.shopee.vn/file/3c18ee889c242196030a86b7ce86a59e_tn" alt="">
+                                                            <p>Sản phẩm mới nhất hiện nay</p>
+                                                            <div class="item__foot">
+                                                                <b>100.000.000 VND</b>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <span>(10000)</span>
+                                                            </div>
+                                                        </a>
+                                                        <a href="#" class="item">
+                                                            <img src="https://cf.shopee.vn/file/65fa8b4b0efc12ce40aff3bc34541de2_tn" alt="">
+                                                            <p>Sản phẩm mới nhất hiện nay</p>
+                                                            <div class="item__foot">
+                                                                <b>100.000.000 VND</b>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <span>(10000)</span>
+                                                            </div>
+                                                        </a>
+                                                        <a href="#" class="item">
+                                                            <img src="https://cf.shopee.vn/file/1366956e12b7c40936a1e11ffe1bd486_tn" alt="">
+                                                            <p>Sản phẩm mới nhất hiện nay</p>
+                                                            <div class="item__foot">
+                                                                <b>100.000.000 VND</b>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <span>(10000)</span>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <footer class="pt-4 mt-5">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-md-3 footer__widget">
+                                                        <h3>
+                                                            Hướng dẫn mua hàng
+                                                        </h3>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="#">Chăm sóc khách hàng</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Hướng dẫn mua hàng</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Chăm sóc khách hàng</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Hướng dẫn mua hàng</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-3 footer__widget">
+                                                        <h3>
+                                                            Về Shopee
+                                                        </h3>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="#">Giới thiệu</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Tuyển dụng</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Liên hệ</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Hướng dẫn mua hàng</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-3 footer__widget">
+                                                        <h3>
+                                                            Theo dõi chúng tôi trên
+                                                        </h3>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fab fa-facebook"></i> Facebook</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <i class="fab fa-instagram"></i> Instagram</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <i class="fab fa-twitter-square"></i> Twitter</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-md-3 footer__widget">
+                                                                    <h3>
+                                                                        Theo dõi chúng tôi trên
+                                                                    </h3>
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="#">Giới thiệu</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">Tuyển dụng</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">Liên hệ</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">Hướng dẫn mua hàng</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="footer__bottom">
+                                                                <p class="text-center">
+                                                                    © 2018 Shopee. Tất cả các quyền được bảo lưu.
+                                                                </p>
+                                                                <p class="text-center">
+                                                                    Địa chỉ: Tầng 29, Tòa nhà trung tâm Lotte Hà Nội, 54 Liễu Giai, phường Cống Vị, Quận Ba Đình, Hà Nội. Tổng đài hỗ trợ: 19001221
+                                                                    - Email: support@shopee.vn Mã số doanh nghiệp: 0106773786 do Sở Kế hoạch & Đầu tư TP Hà Nội cấp lần đầu
+                                                                    ngày 10/02/2015 © 2015 - Bản quyền thuộc về Công ty TNHH Shopee
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </footer>
+
+                                                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                                                    <script src="public/libs/bootstrap/bootstrap.min.js"></script>
+                                                    <script src="public/libs/owl-carousel/dist/owl.carousel.min.js"></script>
+                                                    <script>
+                                                        $(document).ready(function () {
+                                                            $('.item-thumb').mouseenter(function () {
+                                                                var show = $(this).attr('src');
+                                                                var index = parseInt($('.item-thumb').index(this));
+                // console.log(index);
+                $('.dot').removeClass('active');
+                index++;
+                $('.dot:nth-child(' + index + ')').addClass('active');
+                $('#show').attr('src', show);
+            });
+                                                            $('.suggested-carousel').owlCarousel({
+                                                                loop: true,
+                                                                responsiveClass: true,
+                                                                dots: false,
+                                                                responsive: {
+                                                                    0: {
+                                                                        items: 1,
+                                                                        nav: true
+                                                                    },
+                                                                    600: {
+                                                                        items: 3,
+                                                                        nav: false
+                                                                    },
+                                                                    1000: {
+                                                                        items: 6,
+                                                                        nav: true,
+                                                                        margin: 10,
+                                                                        loop: true,
+                                                                    }
+                                                                }
+                                                            });
+                                                            $('.product-carousel').owlCarousel({
+                                                                loop: true,
+                                                                responsiveClass: true,
+                                                                dots: false,
+                                                                responsive: {
+                                                                    1000: {
+                                                                        items: 6,
+                                                                        nav: false,
+                                                                        margin: 10,
+                                                                        loop: false,
+                                                                    }
+                                                                }
+                                                            });
+                                                            $('.show-more').click(function() {
+                                                                console.log(1);
+                                                                $(this).remove();
+                                                                $('.product-description-content.mb-0').height('auto');
+                                                            });
+                                                        });
+                                                    </script>
+                                                </body>
+
+                                                </html>
